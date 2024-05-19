@@ -1,4 +1,5 @@
-"use client"
+// Use "use client" for SSR frameworks like Next.js to ensure this component runs in the client.
+"use client";
 
 import { useEffect, useRef } from "react";
 
@@ -7,13 +8,13 @@ const spinningCubeAnimationStyles = `
   .spinning-cube { animation: spin 2s infinite linear; }
 `;
 
-export default function Home() {
-  const audioRef = useRef(null);
+const Home: React.FC = () => {
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
     audioRef.current = new Audio("/sounds/bane_your_punishment.m4a");
 
-    const handleKeyPress = (event) => {
+    const handleKeyPress = (event: KeyboardEvent) => {
       if (event.key.toLowerCase() === 'l') {
         playSound();
       }
@@ -43,11 +44,11 @@ export default function Home() {
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
-      audioRef.current.play();
+      audioRef.current.play().catch(error => console.error('Error playing audio:', error));
     }
   };
 
-  const handleMIDIMessage = (message) => {
+  const handleMIDIMessage = (message: WebMidi.MIDIMessageEvent) => {
     const [command, note, velocity] = message.data;
 
     // MIDI note on message for middle C (60) with velocity > 0 (note pressed)
@@ -70,3 +71,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;
