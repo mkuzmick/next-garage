@@ -1,0 +1,106 @@
+---
+title: ll-today of 20230808
+
+---
+
+# ll-today of 20230808
+
+## individual plans for today
+
+- cd
+    - mdf orientation
+        - check with everyone re: lab trailer times on orientation menu
+        - email new mdfs menu
+        - assign LL folks to chunks
+    - mdf manual 
+        - finish updating slack, etc. section
+        - ll basics w/jk - add to manual
+    - codeLab
+        - work on prompt
+        - ILP
+    - write to advisees
+    - clean desk!
+- dd 
+    - airtable bases work
+        - connect with mk&mw 
+    - check in about fellows logistics
+        - mdf admin tasks
+        - mdf orientation ordering with cd & mw
+        - lluf admin help with jk
+    - check in about event types with cc&sc
+    - 
+- mk
+    - systemsLab
+        - review scripts in all bases (aggregate? or get help?)
+        - additions to macsetup script
+    - ll-event-bot
+        - airtable google-cal-to-ll-event-script
+        - momentBase schema
+        - listen to test moments in LL Studio slack space
+    - show-your-work-bot
+        - document sync machine (and document workflow protocol)
+        - channels to listen too saved in config and loaded on start
+    - do-your-work-bot
+        - slash commands connected to 23-24 base?
+    - eventLab
+        - more writing in the repo
+        - nextjs app
+        - ILP
+        - activities
+        - list of LL basics
+    - realityLab
+        - try Sophie's ILP?
+    - studioLab
+        - connect with Casey and JK about space
+        - cc and sc about atem and hub situation?
+- jk
+    - lluf admin
+        - form design (with dani + mk partially if can!)
+            - [lluf updates](/zVD8R5aWRyyIUIfn3KfP4Q)
+        - syllabus revision 
+            - emmy help with lluf-facing version, maybe we can do a graphic syllabus!?
+    - graphicsLab ILP first "final" draft using the template
+        - priotitize slides and syllabus
+        - provide "extras" for other components
+    - ll basics
+        - work with cd on it!
+        - refine the timeline plan and priorities (with mk + emmy if can!)
+    - space
+        - storage with mk + cc
+
+- mw 
+    - Script Bases
+        - identifying the bases with scripts
+        - describing those scripts 
+        - creating new views for review 
+    - MDF admin systems 
+        - create new slack channels
+        - invite new MDFS to slack
+        - add slackID to bokwhitepage person person record
+        - add / update slack user group
+        - add to ‘users’ tables in various bases
+    - Annual report
+        - new edits from tamara
+        - new pages ready to be drafted
+    - Open scholar 
+        - crying over open scholar layouts why is it so hard slkjkjhsjkhdksjhfd
+   
+   
+- cc
+	- avLab initial learning project
+		- finishing up the editing, recording the v/o, adding some motion graphics
+	- start working on the photo-video-base for this term w/ sc(and dd?)
+		- add the code for #ll-photo-review to Heroku
+		- see what other needs we have
+			- also, stress test
+	- working with MPAs to start clearing the iMacs
+	- ordering/gear research: new synology/s, pipe options
+	- figure out MPA scheduling for the fall
+- sc
+    - reality lab initial learning project
+        - finish filling out draft
+        - touch up bar graph example
+    - editing Sabrina's footage
+        - [shoot from 20230629](https://docs.google.com/spreadsheets/d/1R2wmRVzmXelmoOTDI5XMq7b0BeLXoMlXDPMYnZ9ojz8/edit?usp=sharing)
+    - help with clearing iMacs and laptops
+    - finish synology 9 move
